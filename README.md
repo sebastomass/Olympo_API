@@ -4,7 +4,7 @@ API para servidor de WoW Olympo.
 Instalación:
 
 - Extraer contenido.
-- #npm init
+- #npm install
 
 
 
