@@ -13,6 +13,6 @@ A tener en cuenta:
 - El lenguaje utilizado es ECMAScript 6. El funcionamiento se basa en requests asíncronas que se apoyan
 en la tecnología async/await.
 
-- Precisa una versión de NodeJS que soporte ECMAScript 6, por ello se recomienta la versión más actual de Node.
+- Precisa una versión de NodeJS que soporte ECMAScript 6, por ello se recomienda la versión más actual de Node.
 
 
