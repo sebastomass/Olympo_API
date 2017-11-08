@@ -178,6 +178,7 @@ async function getInventoryJSON(cheer) {
     return inventory;
 }
 
+// Retorna un JSON con la lista de jugadores conectados actualmente, junto a su nivel y su localización dentro del juego.
 async function getOnlinePlayers(){
     let html = "";
     const url = "http://www.olympowow.com/web/online";
