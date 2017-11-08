@@ -1,0 +1,16 @@
+{
+  "name": "olympo_api",
+  "version": "1.0.0",
+  "description": "API for WoW Server Olympo",
+  "main": "OlympoAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@sebastomass",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lets-get-meta": "^2.1.1",
+    "request-promise": "^4.2.2"
+  }
+}
