@@ -1,5 +1,5 @@
 # Olympo_API
-API for WoW server Olympo.
+API para servidor de WoW Olympo.
 
 Instalación:
 
