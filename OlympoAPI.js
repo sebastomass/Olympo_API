@@ -194,15 +194,16 @@ async function getOnlinePlayers(){
     let lvlIndex = 9;
     let locationIndex = 12;
     for(i in tableArray){
-        if(locationIndex !== tableArray.length-1){
+        onlinePlayersJSON[index] = {name: tableArray[nameIndex].trim(), level: tableArray[lvlIndex].trim(), location: tableArray[locationIndex].trim()};
+        nameIndex += 7;
+        lvlIndex += 7;
+        locationIndex += 7;
+        index++;
+        if(locationIndex === tableArray.length-1){
             onlinePlayersJSON[index] = {name: tableArray[nameIndex].trim(), level: tableArray[lvlIndex].trim(), location: tableArray[locationIndex].trim()};
-            nameIndex += 7;
-            lvlIndex += 7;
-            locationIndex +=7;
-            index++;
+            return onlinePlayersJSON;
         }
     }
-    return onlinePlayersJSON;
 }
 
 
